@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_NHG47K.mk
+    $(LOCAL_DIR)/twrp_NHG47K.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_NHG47K-user \
-    omni_NHG47K-userdebug \
-    omni_NHG47K-eng
+    twrp_NHG47K-user \
+    twrp_NHG47K-userdebug \
+    twrp_NHG47K-eng
