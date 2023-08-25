@@ -5,10 +5,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_NHG47K.mk
-
-COMMON_LUNCH_CHOICES := \
-    omni_NHG47K-user \
-    omni_NHG47K-userdebug \
-    omni_NHG47K-eng
+add_lunch_combo omni_NHG47K-user
+add_lunch_combo omni_NHG47K-userdebug
+add_lunch_combo omni_NHG47K-eng
